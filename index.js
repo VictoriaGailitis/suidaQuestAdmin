@@ -74,3 +74,14 @@ app.post(`/editQuestInfo`, async function (req, res) {
     })
     res.redirect(`/editQuest?id=${questID}`)
 })
+
+app.get(`/deleteQuest`, async function (req, res) {
+    const questID = req.query.questId
+    const response = await fetch(`http://localhost:3000/suidaQuestAPI/deleteQuest/${questID}`, {method: "DELETE",
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        }
+    })
+    res.redirect(`/`)
+})
