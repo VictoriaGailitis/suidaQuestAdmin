@@ -1,5 +1,5 @@
 ## SuidaQuest Админ-панель
-[!image](https://github.com/user-attachments/assets/8ef683e4-4c33-4d42-b20a-078d14e3716f)
+![image](https://github.com/user-attachments/assets/8ef683e4-4c33-4d42-b20a-078d14e3716f)
 SuidaQuest Админ-панель - часть веб-приложения SuidaQuest, предназначенная для добавления, изменения и удаления квестов администраторами сервиса
 ## Функционал
 1. Создание сюжетных квестов
